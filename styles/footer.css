@@ -100,3 +100,20 @@ footer {
     }
   }
 }
+
+@media (width <= 23.437em) {
+  footer {
+    max-width: 23.437rem;
+    display: block;
+
+    & nav {
+      display: grid;
+      padding: 2rem 0;
+    }
+
+    & .social-links {
+      
+    }
+
+  }
+}

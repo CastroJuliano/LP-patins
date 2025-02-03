@@ -112,3 +112,25 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media (width <= 23.437em) {
+  section.gallery {
+    width: 100%;
+    max-width: 23.437rem;
+    padding: 2.5rem 1.5rem;
+
+    & > img {
+      height: 16rem;
+    }
+
+    & .content {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-areas:
+      "A"
+      "B"
+      "C"
+      "D";
+    }
+  }
+}
